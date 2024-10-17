@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Period Tracker</title>
+</head>
+<body>
+
+<header>
+    <h1>Period Tracker</h1>
+    <h2>Track Your Cycle</h2>
+</header>
+
+<main>
+    <form id="cycleForm">
+        <label for="startDate">Start Date (dd-mm-yyyy):</label>
+        <input type="text" id="startDate" placeholder="Enter start date" required>
+
+        <label for="endDate">End Date (dd-mm-yyyy):</label>
+        <input type="text" id="endDate" placeholder="Enter end date" required>
+
+        <label for="symptoms">Symptoms (comma separated):</label>
+        <input type="text" id="symptoms" placeholder="e.g., cramps, headache">
+
+        <button type="submit">Add Cycle</button>
+    </form>
+
+    <div id="message" class="message"></div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Period Tracker</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
